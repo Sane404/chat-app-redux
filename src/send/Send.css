@@ -1,0 +1,32 @@
+.send {
+  position: fixed;
+  max-width: 1440px;
+  margin: 0 auto;
+  bottom: 10px;
+  width: 100%;
+  /* right: 10px; */
+  background: #252525;
+  padding: 15px 20px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+input {
+  width: 100%;
+  outline: none;
+  background: #252525;
+  color: white;
+  border: none;
+}
+button {
+  border: none;
+  cursor: pointer;
+  background: #252525;
+}
+img {
+  object-fit: cover;
+  height: 20px;
+  width: 20px;
+  background: transparent;
+}
